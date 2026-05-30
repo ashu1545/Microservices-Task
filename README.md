@@ -59,10 +59,43 @@ This document provides details on testing various services after running the `do
 ---
 
 ## Instructions
-1. Start all services using the `docker-compose` file:
-   ```
-   docker-compose up
-   ```
-2. Once the services are running, use the above endpoints to verify the functionality.
 
-Happy testing!
+# Microservices Containerization Assignment
+
+## Prerequisites
+
+- Docker
+- Docker Compose
+
+## Run Application
+
+docker compose up --build
+
+## Stop Application
+
+docker compose down
+
+## Services
+
+User Service: localhost:3000
+
+Product Service: localhost:3001
+
+Order Service: localhost:3002
+
+Gateway Service: localhost:3003
+
+## Verify Containers
+
+docker ps
+
+## Troubleshooting
+
+1. Check logs:
+   docker compose logs
+
+2. Rebuild:
+   docker compose up --build
+
+3. Stop containers:
+   docker compose down
