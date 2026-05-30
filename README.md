@@ -71,6 +71,7 @@ This document provides details on testing various services after running the `do
 
 docker compose up --build
 
+
 ## Stop Application
 
 docker compose down
